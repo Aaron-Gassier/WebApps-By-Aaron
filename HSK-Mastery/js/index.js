@@ -1,6 +1,6 @@
 /*
- * Chinese Study Helper License
- * Copyright (c) 2024 Aaron GASSIER
+ * Aaron's WebApp Portal License
+ * Copyright (c) 2025 Aaron GASSIER
  * 
  * Permission is hereby granted to view this file, subject to the following conditions:
  * 
