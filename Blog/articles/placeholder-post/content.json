@@ -1,0 +1,30 @@
+{
+  "title": "An eagle flying over the middle earth",
+  "summary": "1st Article.",
+  "heroImage": "png/hero-placeholder.png",
+  "author": {
+    "name": "Aaron Gassier"
+  },
+  "publishDate": "2025-06-09",
+  "coreContent": [
+    {
+      "type": "heading",
+      "level": 2,
+      "text": "Welcome to my placeholder"
+    },
+    {
+      "type": "paragraph",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    },
+    {
+      "type": "image",
+      "src": "png/hero-placeholder.png",
+      "alt": "What nice mountain, right"
+    },
+    {
+        "type": "video",
+        "src": "mp4/Eagle_Video.mp4",
+        "caption": "This is a sample video."
+    }
+  ]
+}

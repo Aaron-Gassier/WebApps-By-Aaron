@@ -1,0 +1,200 @@
+/*
+ * Aaron's WebApp Portal License
+ * Copyright (c) 2025 Aaron GASSIER
+ * 
+ * Permission is hereby granted to view this file, subject to the following conditions:
+ * 
+ * 1. The file must not be modified or altered in any way without the express written permission of the copyright holder.
+ * 2. The file must not be distributed, sublicensed, or sold without the express written permission of the copyright holder.
+ * 
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO 
+ * THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT.
+ */
+
+/* Global Styles (similar to main website) */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #121212;
+    color: #E0E0E0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1C1C1C;
+    color: #E0E0E0;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #E0E0E0;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #80CBC4;
+}
+
+main {
+    padding: 2em;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #80CBC4;
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+
+footer {
+    background-color: #1C1C1C;
+    color: #E0E0E0;
+    text-align: center;
+    padding: 1em;
+    width: 100%;
+    bottom: 0;
+    margin-top: 2em;
+}
+
+footer a {
+    color: #80CBC4;
+}
+
+/* Article Gallery Styles (index.html) */
+.article-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+
+.article-item {
+    background-color: #2C2C2C;
+    border: 1px solid #3A3A3A;
+    border-radius: 5px;
+    padding: 20px;
+    width: 100%;
+    max-width: 300px;
+    transition: transform 0.3s, background-color 0.3s;
+    display: flex;
+    flex-direction: column;
+}
+
+.article-item:hover {
+    background-color: #3A3A3A;
+    transform: scale(1.05);
+}
+
+.article-item img.article-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 3px;
+    margin-bottom: 1em;
+}
+
+.article-item h3 {
+    color: #80CBC4;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+.article-item p {
+    margin: 0.5em 0 1em 0;
+    flex-grow: 1;
+    font-size: 0.9em;
+    color: #B0B0B0;
+}
+
+.article-item a {
+    display: inline-block;
+    align-self: flex-start;
+    padding: 8px 15px;
+    background-color: #1C1C1C;
+    color: #80CBC4;
+    text-decoration: none;
+    border: 1px solid #80CBC4;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.article-item a:hover {
+    background-color: #80CBC4;
+    color: #121212;
+}
+
+/* Article Viewer Styles (article-viewer.html) */
+.article-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#article-title {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+    color: #80CBC4;
+}
+
+#article-meta {
+    color: #B0B0B0;
+    margin-bottom: 1.5em;
+    font-style: italic;
+}
+
+#article-hero {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 1.5em;
+}
+
+#article-body {
+    line-height: 1.6;
+}
+
+#article-body p {
+    margin-bottom: 1em;
+}
+
+#article-body img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin: 1em 0;
+}
+
+#article-body audio, #article-body video {
+    width: 100%;
+    margin: 1em 0;
+    border-radius: 5px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .article-gallery {
+        grid-template-columns: 1fr;
+    }
+    
+    .article-item {
+        max-width: 100%;
+    }
+    
+    #article-title {
+        font-size: 2em;
+    }
+}

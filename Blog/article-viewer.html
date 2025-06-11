@@ -1,0 +1,46 @@
+<!--*
+ * Aaron's WebApp Portal License
+ * Copyright (c) 2025 Aaron GASSIER
+ * 
+ * Permission is hereby granted to view this file, subject to the following conditions:
+ * 
+ * 1. The file must not be modified or altered in any way without the express written permission of the copyright holder.
+ * 2. The file must not be distributed, sublicensed, or sold without the express written permission of the copyright holder.
+ * 
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO 
+ * THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article Title</title> <!-- Will be dynamically set by JS -->
+    <link rel="icon" type="image/x-icon" href="png/favicon.png"> <!-- Assuming you'll add a favicon -->
+    <link rel="stylesheet" href="css/blog-styles.css">
+    <script src="js/article-loader.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>My Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Back to Articles</a></li>
+                <li><a href="../index.html">Main Portal</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="article-content">
+        <!-- Article content will be loaded here by article-loader.js -->
+        <h2 id="article-title">Loading...</h2>
+        <div id="article-meta">Loading...</div>
+        <img id="article-hero" src="" alt="Article Hero Image" style="display: none;">
+        <div id="article-body">Loading...</div>
+    </main>
+    <footer>
+        <p>You can send your suggestions and feedback at: <a href="mailto:humansquotes.project@gmail.com">humansquotes.project@gmail.com</a></p>
+        <p>&copy; 2025, Aaron GASSIER - Blog</p>
+    </footer>
+</body>
+</html>
